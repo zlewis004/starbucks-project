@@ -26,7 +26,8 @@ One feature we would have is the option to select allergies or dietary restricti
 
 ## Class Diagram
  
-![alt text](/images/readme/UML.png)
+<img width="1999" height="1109" alt="image" src="https://github.com/user-attachments/assets/04319d15-031f-4fd1-8da9-cfa0ff671679" />
+
 
 The User class has two private attributes, name and age, and a constructor to create a new User instance with these values. The Drink class has one private attribute, temperature, and a getName() method that returns the name of the drink. The syrup and flavor classes are decorators for the Drink class, and they inherit from the Drink class. They each have a constructor that takes a Drink instance and a getName() method that returns the name of the decorated drink. The Hot Chocolate, Chai Tea, and Creme Frappuccino and other classes are derived from the Drink class, and they each have a getName() method that returns the name of the drink. The Generator class has three derived classes that generate different lists of drinks. These classes populate a vector in Randomizer class, which returns a randomly generated name of the drink based on the user's age, the current weather, and/or user preference.
 
@@ -36,9 +37,11 @@ These changes helped us to write better code because they are breaking up our ta
 
 ## Screenshots
 
-<img src="/images/readme/sample1.png" width="500" />
-<img src="/images/readme/sample2.png" width="500" />
-<img src="/images/readme/sample3.png" width="500" />
+<img width="774" height="396" alt="image" src="https://github.com/user-attachments/assets/a8919ae8-5e34-458c-88fd-8ea3db09fc15" />
+<img width="1510" height="454" alt="image" src="https://github.com/user-attachments/assets/e4af5fd9-32cd-4aa1-ac07-bcc22957b8c3" />
+
+<img width="1550" height="368" alt="image" src="https://github.com/user-attachments/assets/e8613a10-604e-4774-8aaf-345e1c0bc40f" />
+
 
 ## Installation/Usage
  
@@ -59,5 +62,6 @@ make
 
 We used Googletest to test the functionality of the program. CI is implemented using GitHub Actions and the badge is present at the top of this file. We also ran Valgrind for memory leaks (see the screenshot below).
 
-<img src="/images/readme/valgrind.png" width="500" />
+<img width="1144" height="232" alt="image" src="https://github.com/user-attachments/assets/b02fe987-94cd-4c67-8bf0-ae1082e46327" />
+
  
